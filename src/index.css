@@ -122,8 +122,8 @@ button {
   margin-bottom: 130px;
 }
 .see-all > a{
-  color:blue;
-  border: 1px solid blue;
+  color:#4738FF;
+  border: 2px solid #4738FF;
   background-color: #fff;
 
   border-radius: 25px;
@@ -173,6 +173,42 @@ div.ads{
 /* About */
 .About{
   display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+  
+}
+.about-l{
+  background-image: url("./images/background-grey.jpg");
+  
+}
+.about-r{
+  padding: 80px 150px 60px 35px;
+  
+}
+.ab-head{
+  text-align: left;
+}
+.ab-head > h1{
+  margin-bottom: 40px;
+  font-size: 6rem;
+}
+.ab-detail-f{
+  
+  text-align: left;
+  width: 95%;
+ 
+  font-size:2rem;
+  margin-bottom: 60px;
+}
+.ab-detail-f > p, .ab-detail-s > p {
+  color: #8D8D8D;
 }
 
+.ab-detail-s{
+  
+  text-align: left;
+  width: 95%;
+  font-size:2rem;
+  margin-bottom: 60px;
+}
 

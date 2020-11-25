@@ -1,8 +1,8 @@
-import logo from "./logo.svg";
 import "./App.css";
 import FilmList from "./compoonents/FilmList";
 import Navbar from "./compoonents/Navbar";
 import About from "./compoonents/About";
+
 function App() {
   return (
     <div className="App">
@@ -22,7 +22,7 @@ function App() {
             </div>
           </div>
           <div className="button-firstpage">
-            <a href="#" class="btn">
+            <a href="/" class="btn">
               Buy Tickets
             </a>
           </div>
@@ -32,9 +32,7 @@ function App() {
       <FilmList></FilmList>
       {/*  <button type="button" class="btn btn-secondary btn-lg">SEE ALL</button> */}
       <div className="see-all">
-        <a href="#" >
-          SEE ALL
-        </a>
+      <a href="/">SEE ALL</a>
       </div>
 
       <div className="ads">
@@ -42,7 +40,7 @@ function App() {
         <h1>Get your tickets now and Save the Money.</h1>
       </div>
 
-     
+      <About/>
     </div>
   );
 }
