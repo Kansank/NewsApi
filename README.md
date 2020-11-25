@@ -1,4 +1,10 @@
 
+![alt text](https://github.com/Kansank/NewsApi/blob/master/1.png?raw=true)
+
+After click button "SEE ALL"
+
+![alt text](https://github.com/Kansank/NewsApi/blob/master/2.png?raw=true)
+
 
 # Getting Started with Create React App
 
