@@ -30,10 +30,7 @@ function App() {
       </div>
 
       <FilmList></FilmList>
-      {/*  <button type="button" class="btn btn-secondary btn-lg">SEE ALL</button> */}
-      <div className="see-all">
-      <a href="/">SEE ALL</a>
-      </div>
+    
 
       <div className="ads">
         <h1>Don't wait! </h1>
