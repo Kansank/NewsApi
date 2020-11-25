@@ -1,4 +1,4 @@
-https://kansank.github.io/NewsApi/
+
 
 # Getting Started with Create React App
 
